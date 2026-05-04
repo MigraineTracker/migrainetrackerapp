@@ -1,0 +1,137 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+<meta charset="UTF-8">
+<meta name="viewport" content="width=device-width, initial-scale=1">
+<title>Support — Migraine Logger</title>
+<meta name="description" content="Support and FAQ for Migraine Logger iOS app.">
+<style>
+  :root {
+    --bg: #12101A; --bg-card: #1C1927;
+    --text: #E8E4F0; --text-dim: #9B92AC; --text-tert: #6B6480;
+    --accent: #9B8EC4; --accent-muted: rgba(155, 142, 196, 0.15);
+    --rule: rgba(232, 228, 240, 0.08);
+  }
+  * { box-sizing: border-box; }
+  html, body {
+    margin: 0; padding: 0; background: var(--bg); color: var(--text);
+    font-family: -apple-system, BlinkMacSystemFont, "SF Pro Text", "Inter", system-ui, sans-serif;
+    font-size: 16px; line-height: 1.6; -webkit-font-smoothing: antialiased;
+  }
+  .wrap { max-width: 720px; margin: 0 auto; padding: 64px 24px 96px; }
+  header { border-bottom: 1px solid var(--rule); padding-bottom: 24px; margin-bottom: 40px; }
+  .breadcrumb { font-size: 13px; color: var(--text-tert); margin-bottom: 12px; }
+  .breadcrumb a { color: var(--accent); text-decoration: none; }
+  h1 { font-size: 32px; font-weight: 300; letter-spacing: -0.5px; margin: 0 0 12px; }
+  h2 { font-size: 20px; font-weight: 600; margin: 40px 0 12px; }
+  h3 { font-size: 15px; font-weight: 600; margin: 24px 0 6px; color: var(--accent); }
+  p, li { color: var(--text-dim); font-size: 15px; }
+  strong { color: var(--text); font-weight: 600; }
+  ul { padding-left: 22px; }
+  li { margin-bottom: 6px; }
+  a { color: var(--accent); }
+  .contact-card {
+    background: var(--bg-card); border-radius: 12px; padding: 24px;
+    margin: 32px 0; text-align: center;
+  }
+  .contact-card a {
+    display: inline-block; margin-top: 8px; padding: 12px 24px;
+    background: var(--accent); color: var(--bg); border-radius: 999px;
+    text-decoration: none; font-weight: 600; font-size: 14px;
+  }
+  footer { margin-top: 80px; padding-top: 24px; border-top: 1px solid var(--rule);
+    font-size: 13px; color: var(--text-tert); text-align: center; }
+</style>
+</head>
+<body>
+<div class="wrap">
+
+<header>
+  <div class="breadcrumb"><a href="../">Migraine Logger</a> &nbsp;·&nbsp; Support</div>
+  <h1>Support</h1>
+</header>
+
+<div class="contact-card">
+  <p style="margin:0 0 4px;"><strong>Email is the fastest way to reach us.</strong></p>
+  <p style="margin:0; font-size:13px;">We respond within 7 days, usually much sooner.</p>
+  <a href="mailto:migraintracker@gmail.com">migraintracker@gmail.com</a>
+</div>
+
+<h2>Frequently asked</h2>
+
+<h3>Does Migraine Logger require an account?</h3>
+<p>No. There is no sign-up. Your data lives on your iPhone and your private iCloud.</p>
+
+<h3>Where is my data stored?</h3>
+<p>
+  Locally on your device, and synchronised across your Apple devices via your
+  private iCloud (Apple's CloudKit). We never see it. See the
+  <a href="../privacy/">privacy policy</a> for full details.
+</p>
+
+<h3>How do the AI features work?</h3>
+<p>
+  AI insights and the daily forecast are optional features powered by your
+  <strong>own API key</strong> for Anthropic (Claude), OpenAI (GPT), or Google
+  (Gemini). Keys are stored in the iOS Keychain. When you trigger an analysis,
+  your data is sent directly from your phone to your chosen provider — we
+  don't have any servers in between.
+</p>
+
+<h3>Why ask for HealthKit access?</h3>
+<p>
+  Sleep duration, heart rate variability, and resting heart rate correlate with
+  migraine risk. Reading them lets the daily risk score reflect your actual
+  physiological state. HealthKit is opt-in; the app works without it.
+</p>
+
+<h3>Why ask for "Always" location?</h3>
+<p>
+  Optional, off by default. Background location lets the app re-fetch local
+  barometric pressure when you travel — a sudden environment change is a known
+  migraine trigger. You can decline and continue using the app with
+  foreground-only location.
+</p>
+
+<h3>How do I export my data?</h3>
+<p>
+  Settings → Data → Export to JSON or CSV. Both formats include all attacks,
+  daily logs, and medications.
+</p>
+
+<h3>How do I generate a doctor-ready PDF?</h3>
+<p>
+  Settings → Reports → Export PDF. Choose 30 / 60 / 90 / 180 / 365 days. The
+  PDF includes summary stats, trigger analysis, medication effectiveness,
+  AI pattern analysis (if you've run any), and the complete attack log.
+</p>
+
+<h3>Calm Mode is too dim / too dark</h3>
+<p>
+  Calm Mode is intentionally low-contrast for use during a migraine attack
+  with photophobia. If you'd rather not use it, simply ignore the "Calm Mode"
+  pill on the active-attack banner.
+</p>
+
+<h3>Can I delete everything?</h3>
+<p>
+  Yes. Settings → Data → Delete All Data wipes the local store. Removing the
+  app from your iPhone deletes everything else. iCloud copies can be cleared
+  from iOS Settings → Apple ID → iCloud → Manage Storage.
+</p>
+
+<h3>I think I found a bug</h3>
+<p>
+  Email <a href="mailto:migraintracker@gmail.com">migraintracker@gmail.com</a>
+  with: your iOS version, iPhone model, what you were doing when it happened,
+  and a screenshot if you have one. We don't auto-collect crash reports.
+</p>
+
+<footer>
+  Migraine Logger · Independent iOS app · Made in Istanbul ·
+  <a href="../">Home</a> · <a href="../privacy/">Privacy</a>
+</footer>
+
+</div>
+</body>
+</html>
