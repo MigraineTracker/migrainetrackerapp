@@ -1,0 +1,48 @@
+# macOS
+.DS_Store
+._*
+.AppleDouble
+.LSOverride
+.Spotlight-V100
+.Trashes
+
+# Editor / IDE
+.vscode/
+.idea/
+*.swp
+*.swo
+*~
+.netrwhist
+
+# Backup files
+*.bak
+*.backup
+*.orig
+
+# Logs
+*.log
+
+# OS / archives
+Thumbs.db
+*.tmp
+tmp/
+temp/
+
+# Build artefacts (in case a build step is added later)
+node_modules/
+dist/
+build/
+
+# Local-only docs (never publish deploy notes / drafts)
+README.md
+NOTES.md
+TODO.md
+DRAFT*.html
+WIP*.html
+
+# Secrets — should never be in any repo, doubly so a public one
+.env
+.env.local
+*.key
+*.pem
+secrets.json
