@@ -1,0 +1,405 @@
+<!DOCTYPE html>
+<html lang="tr">
+<head>
+<meta charset="UTF-8">
+<meta name="viewport" content="width=device-width, initial-scale=1">
+<title>Gizlilik Politikası — Migraine Logger</title>
+<meta name="description" content="Migraine Logger iOS uygulaması için gizlilik politikası. Verilerinizi toplamıyor, satmıyor veya paylaşmıyoruz. Her şey cihazınızda ve özel iCloud'unuzda kalır.">
+<style>
+  :root {
+    --bg: #12101A;
+    --bg-card: #1C1927;
+    --text: #E8E4F0;
+    --text-dim: #9B92AC;
+    --text-tert: #6B6480;
+    --accent: #9B8EC4;
+    --accent-muted: rgba(155, 142, 196, 0.15);
+    --success: #7FA88A;
+    --warn: #A89A7A;
+    --rule: rgba(232, 228, 240, 0.08);
+  }
+  * { box-sizing: border-box; }
+  html, body {
+    margin: 0; padding: 0;
+    background: var(--bg);
+    color: var(--text);
+    font-family: -apple-system, BlinkMacSystemFont, "SF Pro Text", "Inter", system-ui, sans-serif;
+    font-size: 16px;
+    line-height: 1.6;
+    -webkit-font-smoothing: antialiased;
+  }
+  .wrap {
+    max-width: 720px;
+    margin: 0 auto;
+    padding: 64px 24px 96px;
+  }
+  header {
+    border-bottom: 1px solid var(--rule);
+    padding-bottom: 24px;
+    margin-bottom: 40px;
+  }
+  .breadcrumb {
+    font-size: 13px;
+    color: var(--text-tert);
+    margin-bottom: 12px;
+  }
+  .breadcrumb a {
+    color: var(--accent);
+    text-decoration: none;
+  }
+  h1 {
+    font-size: 32px;
+    font-weight: 300;
+    letter-spacing: -0.5px;
+    margin: 0 0 12px;
+  }
+  .updated {
+    font-size: 13px;
+    color: var(--text-dim);
+    font-variant-numeric: tabular-nums;
+  }
+  h2 {
+    font-size: 20px;
+    font-weight: 600;
+    margin-top: 48px;
+    margin-bottom: 12px;
+    color: var(--text);
+  }
+  h2:first-of-type { margin-top: 0; }
+  h3 {
+    font-size: 15px;
+    font-weight: 600;
+    margin-top: 24px;
+    margin-bottom: 8px;
+    color: var(--accent);
+  }
+  p, li {
+    color: var(--text-dim);
+    font-size: 15px;
+  }
+  strong { color: var(--text); font-weight: 600; }
+  ul {
+    padding-left: 22px;
+    margin: 8px 0 16px;
+  }
+  li { margin-bottom: 6px; }
+  table {
+    width: 100%;
+    border-collapse: collapse;
+    margin: 16px 0 24px;
+    font-size: 14px;
+  }
+  th, td {
+    text-align: left;
+    padding: 10px 12px;
+    border-bottom: 1px solid var(--rule);
+    color: var(--text-dim);
+    vertical-align: top;
+  }
+  th {
+    color: var(--text-tert);
+    font-weight: 600;
+    font-size: 12px;
+    text-transform: uppercase;
+    letter-spacing: 0.5px;
+    background: var(--bg-card);
+  }
+  td:first-child { color: var(--text); font-weight: 500; }
+  .callout {
+    background: var(--accent-muted);
+    border-left: 3px solid var(--accent);
+    padding: 16px 20px;
+    border-radius: 8px;
+    margin: 24px 0;
+    font-size: 14px;
+    color: var(--text);
+  }
+  .callout strong { color: var(--accent); }
+  a { color: var(--accent); }
+  a:hover { color: var(--text); }
+  code {
+    font-family: ui-monospace, "SF Mono", Menlo, monospace;
+    font-size: 13px;
+    background: var(--bg-card);
+    padding: 2px 6px;
+    border-radius: 4px;
+    color: var(--text);
+  }
+  footer {
+    margin-top: 80px;
+    padding-top: 24px;
+    border-top: 1px solid var(--rule);
+    font-size: 13px;
+    color: var(--text-tert);
+    text-align: center;
+  }
+</style>
+</head>
+<body>
+<div class="wrap">
+
+<header>
+  <div class="breadcrumb"><a href="../../">Migraine Logger</a> &nbsp;·&nbsp; Gizlilik</div>
+  <h1>Gizlilik Politikası</h1>
+  <div class="updated">Son güncelleme: 6 Mayıs 2026</div>
+</header>
+
+<div class="callout">
+  <strong>Kısa özet:</strong> Migraine Logger, tek bir prensiple çalışan
+  kişisel bir tıbbi takip uygulamasıdır — sağlık verileriniz size aittir.
+  Onları toplamıyor, satmıyor veya kimseyle paylaşmıyoruz. Her şey
+  iPhone'unuzda ve özel iCloud hesabınızda kalır. Hesap yok, reklam yok,
+  analitik yok. Veriler cihazınızdan yalnızca <em>siz</em> bunu gerektiren
+  bir eylemi açıkça başlattığınızda (örneğin, kendi API anahtarınızla AI
+  analizi çalıştırdığınızda) ayrılır.
+</div>
+
+<h2>1. Biz kimiz</h2>
+
+<p>
+  Migraine Logger ("uygulama", "biz"), migren ataklarını, günlük iyilik
+  halini takip etmek ve kişisel tetikleyicileri belirlemek için geliştirilmiş
+  bağımsız bir iOS uygulamasıdır. İstanbul, Türkiye merkezli bağımsız bir
+  geliştirici tarafından geliştirilmiştir. İletişim:
+  <a href="mailto:migraintracker@gmail.com">migraintracker@gmail.com</a>.
+</p>
+<p>
+  Bu politika; iOS, watchOS için Migraine Logger uygulamasını ve ilgili
+  widget'ları ile Live Activity'leri kapsar. Bağlamak istediğiniz herhangi
+  bir üçüncü taraf hizmetine (Apple Health, iCloud, Open-Meteo, Anthropic,
+  OpenAI veya Google) uygulanmaz — bu hizmetlerin aşağıda özetlenen kendi
+  gizlilik politikaları vardır.
+</p>
+
+<h2>2. Uygulamanın işlediği veriler</h2>
+
+<p>Uygulama, aşağıdaki verileri cihazınızda ve özel iCloud'unuzda saklar:</p>
+
+<table>
+  <thead>
+    <tr><th>Kategori</th><th>Örnekler</th><th>Nerede saklanır</th></tr>
+  </thead>
+  <tbody>
+    <tr><td>Migren atakları</td><td>Başlangıç saati, bitiş saati, şiddet (1–10), 3 açılı vücut haritasında ağrı konumu, tip, tetikleyiciler, aura, ön belirtiler, alınan ilaçlar, serbest metin notlar, isteğe bağlı sesli not transkriptleri</td><td>Cihaz + özel iCloud'unuz</td></tr>
+    <tr><td>Günlük iyilik hali</td><td>Uyku saatleri, stres seviyesi, ruh hali, hidrasyon, kafein, alkol, egzersiz dakikaları, isteğe bağlı menstrüel döngü fazı, serbest metin notlar</td><td>Cihaz + özel iCloud'unuz</td></tr>
+    <tr><td>İçecek ve şekerleme kayıtları</td><td>İçecek tipi ve saati; şekerleme süresi ve kalitesi</td><td>Cihaz + özel iCloud'unuz</td></tr>
+    <tr><td>HealthKit okumaları (isteğe bağlı)</td><td>Uyku süresi, kalp atış hızı değişkenliği, istirahat kalp atış hızı, egzersiz dakikaları, menstrüel akış, ses maruziyeti</td><td>Apple Health (okuruz; kalıcı olarak kopyalamayız)</td></tr>
+    <tr><td>HealthKit yazmaları (isteğe bağlı, varsayılan olarak kapalı)</td><td>Apple Health'e "Baş Ağrısı" altında yazılan biten migren atakları</td><td>Cihazınızdaki Apple Health</td></tr>
+    <tr><td>Konum</td><td>Yerel barometrik basınç / hava durumu için kaba konum. Arka plan ("Her zaman") konumu yalnızca isteğe bağlıdır ve seyahat ettiğinizde hava durumunu yenilemek için kullanılır</td><td>Open-Meteo API'sine gönderilir; bizim tarafımızdan saklanmaz</td></tr>
+    <tr><td>Sesli notlar</td><td>Eller serbest not alma için atak sırasında yakalanan mikrofon sesi</td><td>Apple Speech tarafından cihaz üzerinde yazıya dökülür; orijinal ses asla saklanmaz</td></tr>
+    <tr><td>API anahtarları (isteğe bağlı)</td><td>Anthropic, OpenAI veya Google için kişisel API anahtarlarınız (yalnızca AI özelliklerini kullanmayı seçerseniz)</td><td>Cihazınızdaki iOS Anahtar Zinciri (Keychain)</td></tr>
+    <tr><td>Uygulama ayarları</td><td>Hatırlatıcı saatleri, bildirim tercihleri, dil seçimi</td><td>Cihaz (UserDefaults)</td></tr>
+  </tbody>
+</table>
+
+<div class="callout">
+  <strong>Topladığımız ŞEYLER:</strong> e-posta yok, telefon numarası yok,
+  isim yok (profilinize isteğe bağlı olarak bir ad girmeniz dışında — bu
+  da cihazınızdan asla ayrılmaz), reklam kimlikleri yok, cihaz parmak izi
+  yok, kullanım analitiği yok, bize gönderilen çökme raporları yok, üçüncü
+  taraf SDK yok.
+</div>
+
+<h2>3. Veriler nereye gidiyor</h2>
+
+<h3>3.1 iCloud (Apple)</h3>
+<p>
+  Varsayılan olarak migren ve iyilik hali verileriniz, özel iCloud
+  veritabanınız kullanılarak Apple'ın CloudKit hizmeti üzerinden Apple
+  cihazlarınız arasında senkronize edilir. Bu verileri biz hiç görmeyiz.
+  Apple tarafından aktarımda ve dinlenme halinde şifrelenir ve
+  <a href="https://www.apple.com/legal/privacy/tr/">Apple'ın gizlilik
+  politikası</a> tarafından yönetilir. iCloud senkronizasyonunu
+  Ayarlar → Entegrasyonlar bölümünden devre dışı bırakabilirsiniz.
+</p>
+
+<h3>3.2 Hava durumu (Open-Meteo)</h3>
+<p>
+  Yerel barometrik basınç klinik olarak kanıtlanmış bir migren tetikleyicisi
+  olduğundan uygulama, mevcut hava koşullarını ücretsiz, ticari olmayan bir
+  hava durumu API'si olan
+  <a href="https://open-meteo.com/">Open-Meteo</a>'dan alır. Yalnızca enlem
+  ve boylamınızı gönderiyoruz. Open-Meteo bir hesap gerektirmez, takip
+  amaçlı istekleri kaydetmez ve GDPR uyumludur. Konumunuzu istek sonrasında
+  saklamıyoruz.
+</p>
+
+<h3>3.3 AI analiz sağlayıcıları (yalnızca siz seçerseniz)</h3>
+<p>
+  Migraine Logger, isteğe bağlı AI destekli patern analizi ve günlük tahmin
+  özellikleri içerir. Bu özellikler, desteklenen sağlayıcılardan biri için
+  <strong>kendi API anahtarınızı</strong> gerektirir:
+</p>
+<ul>
+  <li><a href="https://www.anthropic.com/legal/privacy">Anthropic (Claude)</a></li>
+  <li><a href="https://openai.com/policies/privacy-policy">OpenAI (GPT)</a></li>
+  <li><a href="https://policies.google.com/privacy">Google (Gemini)</a></li>
+</ul>
+<p>
+  Yalnızca ve yalnızca "Analiz Et" düğmesine bastığınızda veya günlük
+  tahmin etkinleştirildiğinde uygulama, son ataklarınızın ve günlük
+  kayıtlarınızın yapılandırılmış bir özetini, kendi API anahtarınızı
+  kullanarak doğrudan seçtiğiniz sağlayıcıya gönderir. Veri cihazınızdan
+  sağlayıcıya gider; sunucularımızdan geçmez çünkü hiçbir sunucumuz yoktur.
+  Her sağlayıcının gizlilik politikası, isteğinizle ne yaptıklarını yönetir.
+  Bu özellikleri istediğiniz zaman Ayarlar'dan devre dışı bırakabilir ve
+  API anahtarınızı Ayarlar → AI Insights → Ayarlar ve anahtarlar bölümünden
+  iptal edebilirsiniz.
+</p>
+
+<h3>3.4 Apple Health (okuma ve isteğe bağlı yazma)</h3>
+<p>
+  HealthKit izni verirseniz uygulama, risk skorlamasını iyileştirmek için
+  uyku, kalp atış hızı değişkenliği, istirahat kalp atış hızı, egzersiz
+  dakikaları, menstrüel akış ve ses maruziyetini okur. Bu verileri kendi
+  veri depomuza kopyalamayız — talep üzerine okuruz. "Atakları Apple Health'e
+  yaz" seçeneğini etkinleştirirseniz (varsayılan olarak kapalı), biten
+  migren atakları Apple Health'te Baş Ağrısı kategorisi altında yazılır.
+  Her iki izni de istediğiniz zaman iOS Ayarlar → Apple Health → Paylaşım
+  → Migraine Logger'dan iptal edebilirsiniz.
+</p>
+
+<h3>3.5 Apple Speech (cihaz üzerinde yazıya dökme)</h3>
+<p>
+  Sesli notlar Apple'ın Speech çerçevesini kullanır. Cihazınız tarafından
+  desteklendiği yerlerde yazıya dökme tamamen cihaz üzerinde gerçekleşir
+  ve ses telefondan asla ayrılmaz. Daha eski cihazlarda Apple'ın Speech
+  çerçevesi sunucu tarafı tanıma kullanabilir; bu durumda ses
+  <a href="https://www.apple.com/legal/privacy/data/tr/siri-dictation/">Apple'ın
+  Siri ve Dikte politikası</a> kapsamında işlenir. Orijinal sesi asla
+  saklamayız, yalnızca elde edilen transkripti migren notunuzun içine
+  kaydederiz.
+</p>
+
+<h2>4. İzinler ve ne için kullanıldıkları</h2>
+
+<table>
+  <thead>
+    <tr><th>İzin</th><th>Neden</th><th>Varsayılan</th></tr>
+  </thead>
+  <tbody>
+    <tr><td>HealthKit (okuma)</td><td>Risk skorlaması için Uyku / HRV / egzersiz / menstrüel veri</td><td>Kapalı — isteğe bağlı</td></tr>
+    <tr><td>HealthKit (yazma)</td><td>Biten atakları Apple Health Baş Ağrısı kaydına yazma</td><td>Kapalı — isteğe bağlı</td></tr>
+    <tr><td>Konum: Kullanırken</td><td>Yerel hava durumu ve barometrik basınç</td><td>Kapalı — isteğe bağlı</td></tr>
+    <tr><td>Konum: Her zaman (arka plan)</td><td>Seyahat ettiğinizde önleyici risk uyarıları</td><td>Kapalı — yalnızca açık "neden istiyoruz" sayfasından sonra isteğe bağlı</td></tr>
+    <tr><td>Bildirimler</td><td>Günlük check-in hatırlatıcısı, basınç düşüşü uyarıları, atak hatırlatıcıları</td><td>Kapalı — isteğe bağlı</td></tr>
+    <tr><td>Mikrofon</td><td>Atak sırasında sesli notlar</td><td>Kapalı — yalnızca mikrofon düğmesine bastığınızda istenir</td></tr>
+    <tr><td>Konuşma Tanıma</td><td>Sesli notların cihaz üzerinde yazıya dökülmesi</td><td>Kapalı — mikrofonla birlikte istenir</td></tr>
+  </tbody>
+</table>
+
+<h2>5. Hassas sağlık verileri</h2>
+<p>
+  Migren ve iyilik hali verileri, doğası gereği hassas kişisel bilgilerdir.
+  Buna göre işlem görüyoruz:
+</p>
+<ul>
+  <li>Yalnızca cihazınızda ve özel iCloud'unuzda saklanır — sunucularımızda asla (zaten sunucumuz yok).</li>
+  <li>Reklamcılarla, veri komisyoncularıyla, sigorta şirketleriyle veya herhangi bir üçüncü tarafla asla paylaşılmaz.</li>
+  <li>Yerel olarak çalışan uygulama içi risk motoru dışındaki herhangi bir amaç için sizinle ilgili profil oluşturmak için kullanılmaz.</li>
+  <li>AI sağlayıcıları için API anahtarları, işletim sistemi düzeyinde şifrelenmiş iOS Anahtar Zinciri'nde (Keychain) saklanır.</li>
+</ul>
+<p>
+  Uygulama <strong>bilgilendiricidir, tanı koymaz</strong>. Risk skorları,
+  MOH uyarıları ve kronik patern göstergeleri, kalifiye bir sağlık
+  profesyoneliyle görüşülmesi gereken eğitici sinyallerdir — tıbbi tavsiye
+  değildirler ve klinik değerlendirmenin yerini alamazlar.
+</p>
+
+<h2>6. Çocuklar</h2>
+<p>
+  Migraine Logger, 16 yaşın altındaki çocuklar için tasarlanmamıştır.
+  16 yaşın altındaki herkesten bilerek veri toplamıyoruz. App Store yaş
+  derecelendirmesi, tıbbi/tedavi bilgilerinin dahil edildiğini yansıtır.
+</p>
+
+<h2>7. Haklarınız</h2>
+
+<p>
+  Tüm verileriniz cihazınızda ve iCloud'unuzda olduğundan, istediğiniz
+  zaman bunlar üzerinde tam ve anında kontrole sahipsiniz:
+</p>
+<ul>
+  <li><strong>Erişim ve taşınabilirlik:</strong> Ayarlar → Veri → JSON veya CSV olarak dışa aktar.</li>
+  <li><strong>Silme:</strong> Ayarlar → Veri → Tüm Verileri Sil yerel depoyu temizler. Uygulamayı iPhone'unuzdan silmek geri kalanını siler. iCloud kopyaları iOS Ayarlar → Apple ID → iCloud → Depolamayı Yönet'ten kaldırılabilir.</li>
+  <li><strong>Düzeltme:</strong> Herhangi bir kaydı uygulamada herhangi bir zamanda doğrudan düzenleyin.</li>
+  <li><strong>Onayı geri çekme:</strong> Ayarlar'dan herhangi bir isteğe bağlı özelliği (HealthKit, Konum, Bildirimler, AI) kapatın.</li>
+  <li><strong>AI anahtarlarını iptal etme:</strong> Ayarlar → AI Insights → Ayarlar ve anahtarlar → API anahtarınızı kaldırın. Her sağlayıcı ayrıca anahtarları kendi konsolundan iptal etmenize izin verir.</li>
+</ul>
+
+<p>
+  AB, BK veya başka bir GDPR uyumlu yargı bölgesinde iseniz, uygulamanın
+  işlediği kişisel verilerin işlenmesinin yasal dayanağı
+  <strong>Madde 6(1)(a) açık rıza</strong>'dır (her özelliği isteğe bağlı
+  olarak kabul edersiniz) ve özel kategori sağlık verileri için
+  <strong>Madde 9(2)(a) açık rıza</strong>'dır. Önceki işlemlerin
+  yasallığını etkilemeden istediğiniz zaman onayı geri çekebilirsiniz.
+</p>
+
+<p>
+  Kaliforniya'da iseniz (CCPA): kişisel bilgileri satmıyor veya
+  paylaşmıyoruz. Vazgeçilecek bir şey yok.
+</p>
+
+<p>
+  Türkiye'de iseniz (KVKK uyarınca): kişisel verileriniz cihazınızda
+  saklanır, tarafımızca toplanmaz veya işlenmez. Sağlık verileriniz, KVKK
+  Madde 6 kapsamındaki özel nitelikli kişisel veri kategorisinde olup,
+  açık rızanızla yalnızca uygulama içinde yerel olarak işlenir. KVKK
+  Madde 11 kapsamındaki tüm haklarınız (verilerinize erişim, düzeltme,
+  silme, işlemeye itiraz) uygulama arayüzü üzerinden doğrudan kullanılabilir.
+  Veri işleme faaliyetlerimiz hakkında sorular için bize
+  <a href="mailto:migraintracker@gmail.com">migraintracker@gmail.com</a>
+  adresinden ulaşabilirsiniz.
+</p>
+
+<h2>8. Veri saklama</h2>
+<p>
+  Hiçbir şey almadığımız için hiçbir şey saklamıyoruz. Cihazınızdaki
+  veriler, siz onları silene kadar saklanır. iCloud verileri Apple'ın
+  saklama kurallarını izler — genellikle iCloud'dan kaldırana veya Apple
+  ID'nizi kapatana kadar.
+</p>
+
+<h2>9. Güvenlik</h2>
+<p>
+  Yerel veriler iOS dosya düzeyinde şifreleme ile korunur (cihaz şifreniz
+  / Face ID / Touch ID). iCloud senkronizasyonu, verileri aktarımda ve
+  dinlenme halinde şifreleyen Apple'ın CloudKit'ini kullanır. API
+  anahtarları iOS Anahtar Zinciri'nde (Keychain) saklanır. Open-Meteo ve
+  AI sağlayıcılarına yapılan ağ çağrıları HTTPS/TLS kullanır.
+</p>
+
+<h2>10. Uluslararası aktarımlar</h2>
+<p>
+  Bir AI özelliğini etkinleştirdiğinizde, isteğiniz cihazınızdan doğrudan
+  seçtiğiniz sağlayıcının ülkenizin dışında (Anthropic, OpenAI ve Google
+  için tipik olarak Amerika Birleşik Devletleri'nde) bulunabilen
+  sunucularına gönderilir. Her sağlayıcının uluslararası aktarım için
+  kendi güvenceleri vardır (Standart Sözleşme Maddeleri vb.). Open-Meteo
+  merkezi İsviçre'dedir.
+</p>
+
+<h2>11. Bu politikadaki değişiklikler</h2>
+<p>
+  Bu politikayı güncellersek, üst kısmındaki "Son güncelleme" tarihi
+  değişecek ve uygulamada bir bildirim görünecek. Önemli değişiklikler,
+  etkilenen özelliklerin kullanımına devam etmeden önce açık yeniden
+  onayınızı gerektirecek.
+</p>
+
+<h2>12. İletişim</h2>
+<p>
+  Sorular, endişeler veya istekler:
+  <a href="mailto:migraintracker@gmail.com">migraintracker@gmail.com</a>.
+  7 gün içinde yanıt veriyoruz.
+</p>
+
+<footer>
+  Migraine Logger · Bağımsız iOS uygulaması · İstanbul'da yapıldı ·
+  <a href="../../">Ana sayfa</a> · <a href="../../support/">Destek</a>
+</footer>
+
+</div>
+</body>
+</html>
